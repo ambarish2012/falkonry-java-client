@@ -14,5 +14,4 @@ build:
     - java -version
     - mvn -version
     - mvn -Dskip.tests=true clean javadoc:javadoc
-    - mkdir -p shippable/testresults
-    - cp target/surefire-reports/*.xml shippable/testresults/
+    
